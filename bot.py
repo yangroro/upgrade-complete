@@ -2,7 +2,6 @@ import os
 
 from pygame import mixer
 from flask import Flask
-from flask import make_response
 
 
 app = Flask(__name__)
