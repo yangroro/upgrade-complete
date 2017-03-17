@@ -13,7 +13,7 @@ print(ROOT_DIR)
 def hello():
     mixer.init()
     mixer.music.load(os.path.join(ROOT_DIR, 'upgrade_complete.mp3'))
-    mixer.music.set_volume(0.7)
+    mixer.music.set_volume(0.5)
     mixer.music.play()
     return "OK"
 
